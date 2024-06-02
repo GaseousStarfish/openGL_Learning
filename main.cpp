@@ -110,7 +110,7 @@ void display(GLFWwindow* window, double currentTime)
 		if (size == 5.0f) size = 30.0f;
 		else size = 5.0f;
 	}*/
-	x += inc;
+	x += inc; 
 	if (x > 1.0f)inc = -0.01f;
 	if (x < -1.0f)inc = 0.01f;
 	GLuint offsetLoc = glGetUniformLocation(renderingProgram, "offset");
